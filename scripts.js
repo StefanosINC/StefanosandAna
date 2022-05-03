@@ -20,7 +20,9 @@ const closeModal = function() {
 for(let i = 0; i < btnsOpenModal.length; i++){
  btnsOpenModal[i].addEventListener('click', openModal)
 }
+
     // this is way it gets called on time
     btnCloseModal.addEventListener('click', closeModal);
-
+  
+    // Here
     overlay.addEventListener('click', closeModal);
