@@ -10,7 +10,9 @@ const openModal = function(){
     modal.classList.remove('hidden');
     overlay.classList.remove('hidden');
 }
+// Test Changein the Stefanos Branch
 // Stef Here
+// Test 
 const closeModal = function() {
     modal.classList.add('hidden');
     overlay.classList.add('hidden');
